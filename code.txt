@@ -1,0 +1,26 @@
+DIM a DOUBLE \n
+DIM b DOUBLE \n
+(* comments NUM 12 + 39 *) \n
+DIM x DOUBLE \n
+DIM m DOUBLE \n
+DIM e DOUBLE \n
+DIM c DOUBLE \n
+DIM s DOUBLE \n
+DIM q DOUBLE \n
+DIM v DOUBLE \n
+READLN ( x ) \n
+READLN ( e ) \n
+c := -228 \n
+s := 3F \n
+q = 5E-6 \n
+v := 13.9 \n
+b := x \n
+m := ( a PLUS b ) DIV 1 \n
+WHILE ( m MULT m GT x PLUS e OR m MULT m GT 2 ) \n
+DO BEGIN \n
+    IF m MULT m GT X THEN b := m \n
+    ELSE a := m \n
+    m := ( a PLUS b ) DIV 2 \n
+END \n
+WRITE ( m ) \n
+END \n
